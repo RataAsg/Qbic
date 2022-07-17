@@ -1,0 +1,33 @@
+.archive-services{
+    h1{
+        span{
+            &:first-child{
+                color: #32363B;
+            }
+            &:last-child{
+                background: linear-gradient(157.63deg, #FF2255 -11.15%, #650775 175.84%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+    h2{
+        color: #778686;
+    }
+}
+.qbic-services{
+    .service{
+        background-color: #FAFAFA;
+        border: 0.5px solid #C7C7C7;
+        border-radius: 10px;
+        height: 256px;
+        &_img{
+            max-width: 164px;
+        }
+        .name{
+            background-image: linear-gradient(332.02deg, #030B4E -66.92%, #FF2255 105.2%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}

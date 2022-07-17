@@ -1,0 +1,32 @@
+// outline all input none
+textarea:focus,
+input:focus,
+button:focus {
+	outline: none;
+}
+
+body,
+html {
+	overflow-x: hidden;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	outline: none;
+}
+
+select option {
+	color: black;
+}
+
+// wp admin bar
+// body.logged-in {
+// 	.sticky-wrapper {
+// 		top: 80px;
+// 		margin-top: 32px;
+// 	}
+// }
+
+

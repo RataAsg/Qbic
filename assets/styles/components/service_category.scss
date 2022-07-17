@@ -1,0 +1,90 @@
+.services_category{
+    &_content{
+        color: #32363B;
+    }
+    &-products{
+        &_post{
+            color: #32363B;
+            display: none;
+            &:first-child{
+                display: flex;
+            }
+        }
+        .swiper-slide{
+            height: 244px;
+            border: 1.5px solid #6B9999;
+            border-radius: 16px;
+            &_title{
+                border-radius: 16px 16px 0px 0px;
+                height: 88px;
+                background-color: #F3F7F7;
+                color: #6B9999;
+            }
+            &_content{
+                .value{
+                    color: #051A1A;
+                }
+                .title{
+                    color: #778686;
+                }
+            }
+        }
+        .swiper-button-next, .swiper-button-prev{
+            width: 30px;
+            height: 30px;
+            background-color: #6B9999;
+            border: 2px solid #6B9999;
+            border-radius: 100%;
+            svg{
+                path{
+                    stroke: #F3F7F7;
+                }
+            }
+        }
+        .swiper-button-next:after, .swiper-button-prev:after{
+            display: none !important;
+        }
+        .swiper-button-disabled{
+            background-color: #F3F7F7;
+            border: 2px solid #B5CCCC;
+            svg{
+                path{
+                    stroke: #B5CCCC;
+                }
+            }
+        }
+        .contact-notice{
+            background: #FAFAFA;
+            border: 1px solid #C7C7C7;
+            border-radius: 16px;
+        }
+    }
+    &-products_nav{
+        color: #778686;
+        border-bottom: 1.5px solid #C7C7C7;
+        .nav-list{
+            margin-bottom: -1.6px;
+            &:first-child{
+                color: #FF2255;
+                font-weight: 700;
+                border-bottom: 3px solid #FF2255;
+            }
+        }
+    }
+}
+.nav-list-active{
+    color: #FF2255;
+    font-weight: 700;
+    border-bottom: 3px solid #FF2255;
+}
+.nav-list-deactive{
+    color: #778686 !important;
+    border-bottom: 1.5px solid #C7C7C7 !important;
+    font-weight: 400 !important;
+}
+.service-product-active{
+    display: flex;
+}
+.service-product-deactive{
+    display: none !important;
+}

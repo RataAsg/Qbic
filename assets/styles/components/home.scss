@@ -1,0 +1,185 @@
+.home-page{
+    &_banner{
+        h1{
+            z-index: 10;
+            color: #32363B;
+            p{
+                @media(min-width:996px){
+                    line-height: 68px;
+                }
+                @media(min-width:768px){
+                    line-height: 56px;
+                }
+                line-height: 48px;
+            }
+        }
+        .background{
+            svg{
+                height: 100%;
+            }
+        }
+    }
+}
+.services-section{
+    .service{
+        &_img{
+            width: 82px !important;
+            height: 82px !important;
+            border-radius: 100%;
+        }
+        &_content{
+            width: calc( 100% - 82px );
+        }
+    }
+}
+.other-services-section{
+    height: auto;
+    @media(min-width:768px){
+        height: calc( 100vh - 32px );
+    }
+    @media(min-width:996px){
+        height: calc( 100vh - 48px );
+    }
+    @media(min-width:1024px){
+        height: calc( 100vh - 64px );
+    }
+    .other-service{
+        position: relative;
+        gap: 22px;
+        @media(min-width:768px){
+            gap: 68px;
+        }
+        &_img{
+            border-radius: 100%;
+        }
+        &_content{
+            color: #051A1A;
+            h2{
+                text-align: center;
+                font-size: 50px;
+                @media(min-width:768px){
+                    font-size: 40px;
+                    text-align: left;
+                }
+                @media(min-width:996px){
+                    font-size: 44px;
+                }
+                @media(min-width:1440px){
+                    font-size: 50px;
+                }
+                min-height: 112px;
+                line-height: 48px;
+                font-weight: 900;
+                background: linear-gradient(332.02deg, #030B4E -66.92%, #FF2255 105.2%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 1px;
+            height: calc( 100% - 32px );
+            background-color: #E9E9E9;
+            display: none;
+            @media(min-width:768px){
+                display: block;
+            }
+        }
+        &:last-child{
+            &::after{
+                display: none;
+            }
+        }
+    }
+}
+.powerful-console-container{
+    height: auto;
+    @media(min-width:996px){
+        
+        max-height: 560px !important;
+    }
+    @media(min-width:1024px){
+       
+    }
+}
+.powerful-console{
+    border-radius: 36px;
+    background-color: #F2F2F2;
+    padding: 32px 48px;
+    @media(min-width:1024px){
+        padding: 64px 48px;
+    }
+    @media(min-width:1440px){
+        padding: 104px 84px;
+    }
+    &_title{
+        color: #32363B;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 48px;
+        text-align: center;
+        @media(min-width:768px){
+            font-size: 40px;
+        }
+        @media(min-width:996px){
+            font-size: 44px;
+            text-align: left;
+        }
+        @media(min-width:1440px){
+            font-size: 50px;
+        }
+    }
+    &_content{
+        color: #778686;
+    }
+    a{
+        background-color: #C7C7C7;
+        width: 160px;
+        height: 48px;
+        text-align: center;
+    }
+}
+.pay-section{
+    h3{
+        text-align: center;
+        font-size: 50px;
+        line-height: 48px;
+        @media(min-width:768px){
+            font-size: 40px;
+        }
+        @media(min-width:996px){
+            font-size: 72px;
+            line-height: 72px;
+            text-align: left;
+        }
+        @media(min-width:1160px){
+            line-height: 89px;
+            font-size: 80px;
+        }
+        background:  linear-gradient(157.63deg, #FF2255 -11.15%, #650775 175.84%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;  
+    }
+    p{
+        line-height: 29px;
+        @media(min-width:1440px){
+            line-height: 48px;
+        }
+    }
+}
+.percent-section{
+    .percent{
+        width: 82px;
+        height: 82px;
+        font-size: 22px;
+        @media(min-width:640px){
+            width: 180px;
+            height: 180px;
+            font-size: 50px;
+        }
+        border-radius: 100%;
+    }
+}

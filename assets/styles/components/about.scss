@@ -1,0 +1,197 @@
+.about-page{
+    .our-team{
+        h2{
+            span{
+                &:first-child{
+                    color: #32363B;
+                }
+                &:last-child{
+                    background: linear-gradient(157.63deg, #FF2255 -11.15%, #650775 175.84%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+        .member-photo{
+            &_one{
+                border-radius: 10px;
+                z-index: -1;
+                left: -16px;
+                top: -16px;
+                background-image: linear-gradient(314.88deg, #FF2255 7.31%, rgba(128, 17, 43, 0) 107.52%);
+                transition: all 0.5s ease-out;
+            }
+            &_two{
+                border-radius: 10px;
+                z-index: -1;
+                bottom: -16px;
+                left: -16px;
+                background-image: linear-gradient(314.88deg, #00CD67 7.31%, rgba(128, 17, 43, 0) 107.52%);
+                transition: all 0.5s ease-out;
+            }
+            &_three{
+                border-radius: 10px;
+                z-index: -1;
+                left: -16px;
+                top: -16px;
+                background-image: linear-gradient(314.88deg, #507373 7.31%, rgba(61, 204, 195, 0.66) 107.52%);
+                transition: all 0.5s ease-out;
+            }
+        }
+        .member-photo_one-container{
+            img{
+                transition: all 0.5s ease-out;
+            }
+            &:hover{
+                img{
+                    transform: scale(1.05);
+                }
+                .member-photo_one{
+                    right: -21px;
+                    bottom: -21px;
+                    left: auto;
+                    top: auto;
+                }
+            }
+        }
+        .member-photo_two-container{
+            img{
+                transition: all 0.5s ease-out;
+            }
+            &:hover{
+                img{
+                    transform: scale(1.05);
+                }
+                .member-photo_two{
+                    right: -21px;
+                    bottom: auto;
+                    left: auto;
+                    top: -21px;
+                }
+            }
+        }
+        .member-photo_three-container{
+            img{
+                transition: all 0.5s ease-out;
+            }
+            &:hover{
+                img{
+                    transform: scale(1.05);
+                }
+                .member-photo_three{
+                    right: -21px;
+                    bottom: -21px;
+                    left: auto;
+                    top: auto;
+                }
+            }
+        }
+    }
+    .percent-section{
+        .percent{
+            span{
+                transition: all 0.3s ease-out;
+            }
+            &:hover{
+                span{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+    .social-container{
+        .title{
+            span{
+                &:first-child{
+                    color: #32363B;
+                }
+                &:last-child{
+                    background: linear-gradient(157.63deg, #FF2255 -11.15%, #650775 175.84%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+        .subtitle{
+            color: #778686;
+        }
+        .social{
+            &_icon{
+                width: 64px;
+                height: 64px;
+                @media(min-width:1160px){
+                    width: 96px;
+                    height: 96px;
+                }
+                border-radius: 100%;
+            }
+        }
+    }
+}
+.breadcrumb{
+    color:#778686;
+    a{
+        opacity: 0.5;
+        transition: opacity 0.3s ease-out;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+.qbic-story{
+    &_img{
+        width: 278px;
+    }
+    &_content{
+        max-width: 990px !important;
+        h1{
+            span{
+                &:first-child{
+                    color: #32363B;
+                }
+                &:last-child{
+                    background: linear-gradient(157.63deg, #FF2255 -11.15%, #650775 175.84%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+        p{
+            color: #32363B;
+        }
+    }
+}
+.our-mission{
+    h2{
+        span{
+            &:first-child{
+                color: #32363B;
+            }
+            &:last-child{
+                background: linear-gradient(157.63deg, #FF2255 -11.15%, #650775 175.84%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+    p{
+        color: #32363B;
+    }
+}
+.our-vision{
+    h2{
+        span{
+            &:first-child{
+                color: #32363B;
+            }
+            &:last-child{
+                background: linear-gradient(314.88deg, #507373 7.31%, rgba(61, 204, 195, 0.66) 107.52%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+    p{
+        color: #32363B;
+    }
+}
